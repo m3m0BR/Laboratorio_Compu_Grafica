@@ -1,0 +1,4 @@
+﻿  main_prac9.cpp
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\practica09\practica09\main_prac9.cpp(472): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\practica09\practica09\main_prac9.cpp(479): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Practica09.vcxproj -> C:\Users\Daniel\Documents\CompuGrafica\Laboratorio\Proyectos_VisualStudio\Practica09\Debug\Practica09.exe

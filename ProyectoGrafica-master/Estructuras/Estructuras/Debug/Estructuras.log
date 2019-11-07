@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (Practica09.vcxproj, Practica10.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  Estructuras.cpp
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\proyectografica\estructuras\estructuras\estructuras.cpp(74): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\proyectografica\estructuras\estructuras\estructuras.cpp(249): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\proyectografica\estructuras\estructuras\estructuras.cpp(277): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\proyectografica\estructuras\estructuras\estructuras.cpp(313): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\proyectografica\estructuras\estructuras\estructuras.cpp(326): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\proyectografica\estructuras\estructuras\estructuras.cpp(578): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\daniel\documents\compugrafica\laboratorio\proyectos_visualstudio\proyectografica\estructuras\estructuras\estructuras.cpp(585): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Estructuras.vcxproj -> C:\Users\Daniel\Documents\CompuGrafica\Laboratorio\Proyectos_VisualStudio\ProyectoGrafica\Estructuras\Debug\Estructuras.exe
