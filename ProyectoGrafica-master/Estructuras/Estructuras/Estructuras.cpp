@@ -1,7 +1,7 @@
 /*---------------------------------------------------------*/
-/* ----------------   Práctica 8 --------------------------*/
+/* ----------------   PrÃ¡ctica 8 --------------------------*/
 /*-----------------    2020-1   ---------------------------*/
-/*------------- Alumno: Moreno Morado Jesús Daniel ---------------*/
+/*------------- Alumno:---------------*/
 #define STB_IMAGE_IMPLEMENTATION
 #include "esfera.h"
 #include "camera.h"
@@ -226,8 +226,8 @@ void display(Shader shader)
 
 
 	glBindVertexArray(VAO);
-	//Colocar código aquí
-	//Pared del frente del salón
+	//Colocar cÃ³digo aquÃ­
+	//Pared del frente del salÃ³n
 	for (i=0; i < 100; i = i + 14.0f) {
 		model = glm::translate(glm::mat4(1.0f), glm::vec3(i, 0.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(14.0f, 20.0f, 0.0f));
@@ -236,7 +236,7 @@ void display(Shader shader)
 		glBindTexture(GL_TEXTURE_2D, t_pared_B);
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 	}
-	//Pared trasera del salón
+	//Pared trasera del salÃ³n
 	for (i = 0; i < 100; i = i + 14.0f) {
 		model = glm::translate(glm::mat4(1.0f), glm::vec3(i, 0.0f, 120.0f));
 		model = glm::scale(model, glm::vec3(14.0f, 20.0f, 0.0f));
@@ -245,7 +245,7 @@ void display(Shader shader)
 		glBindTexture(GL_TEXTURE_2D, t_pared_B);
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 	}
-	//Pared izquierda del salón
+	//Pared izquierda del salÃ³n
 	for (i = 0; i <= 4.375; i = i + 0.625) {
 		model = glm::rotate(glm::mat4(1.0f), glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
 		model = glm::translate(model, glm::vec3(i+0.2f, 0.0f, 0.0f));
@@ -273,7 +273,7 @@ void display(Shader shader)
 	glBindTexture(GL_TEXTURE_2D, t_pilar);
 	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
-	//Pared derecha del salón
+	//Pared derecha del salÃ³n
 	for (i = 0; i <= 5.6f; i = i + 0.625) {
 		model = glm::translate(glm::mat4(1.0f), glm::vec3(5.0f, 0.0f, 0.2f+i));
 		model = glm::rotate(model, glm::radians(-90.0f), glm::vec3(0.0f, 1.0f, 0.0f));
@@ -389,7 +389,7 @@ void display(Shader shader)
 	glBindTexture(GL_TEXTURE_2D, t_sismo);
 	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
-	//Placa de metal entrada al salón
+	//Placa de metal entrada al salÃ³n
 	model = glm::translate(glm::mat4(1.0f), glm::vec3(0.0f, 0.01f, 5.2f));
 	model = glm::rotate(model, glm::radians(90.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 	model = glm::scale(model, glm::vec3(0.2f, 0.8f, 0.0f));
@@ -511,7 +511,7 @@ int main()
 		glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		//Mi función de dibujo
+		//Mi funciÃ³n de dibujo
 		display(projectionShader);
 
 		// glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
